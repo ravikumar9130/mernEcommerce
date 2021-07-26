@@ -8,7 +8,8 @@
    "start":"node backend/server.js",
    "server":"nodemon backend/server.js",
    "client":"npm start --prefix frontend",
-   "turbo":"concurrently \"npm run server\"  \"npm run client\" "
+   "turbo":"concurrently \"npm run server\"  \"npm run client\" ",
+   "importProduct":"node backend/sender.js"
   },
   "author": "ravikumar",
   "license": "ISC",
