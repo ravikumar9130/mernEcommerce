@@ -36,7 +36,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   height:70px;
-  background-color:blue;
+  background-color:hotpink;
   color:white;
   
 `;
@@ -58,7 +58,7 @@ const Linker = styled.div`
     padding:0  1.2em;
 `
 const Logo = styled.div`
-padding-left: 2em;
+padding-left: 2.5em;
 
 display: flex;
 justify-content: space-between;
