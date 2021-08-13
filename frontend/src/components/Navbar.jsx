@@ -5,7 +5,7 @@ function navbar() {
   return (
     <Container>
       <Logo>
-        <h3>E-commerce</h3>
+        <h3><Span>Tech </Span>Kart</h3>
       </Logo>
 
           <Wrapper>
@@ -36,7 +36,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   height:70px;
-  background-color:hotpink;
+  background-color:#FF5E78;
   color:white;
   
 `;
@@ -70,6 +70,11 @@ color:violet;
 padding: 2px 4px;
 margin-left: 8px;
 `;
+const Span = styled.span`
+font-size:22px;
+letter-spacing: 1px;
+font-weight:900;
+`
 // const Line = styled.div`
 
 // `

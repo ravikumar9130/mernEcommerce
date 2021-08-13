@@ -23,7 +23,7 @@ const Div = styled.div`
 `
 const CardComponent = styled.div`
  box-shadow: 0px 2px 8px #888888;
-border-radius:12px;
+border-radius:7px;
 background:white;
 margin-top:2em;
 padding: 20px;
@@ -40,7 +40,7 @@ height: 200px;
 const Tittle = styled.p`
 padding: 15px 0;
 text-decoration: none;
-color:red;
+color:#FF5E78;
 `
 const Span = styled.span`
 color:green;
